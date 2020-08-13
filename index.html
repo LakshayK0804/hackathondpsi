@@ -2,9 +2,9 @@
 <html>
 
 <head>
-  <!--Import Google Icon Font-->
+
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!--Import materialize.css-->
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
   <link rel="stylesheet" href="css/main.css">
   <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
@@ -20,7 +20,7 @@
       src="http://code.jquery.com/jquery-3.3.1.js"
       integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
       crossorigin="anonymous"></script>
-  <!--Let browser know website is optimized for mobile-->
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Name</title>
 </head>
@@ -74,12 +74,12 @@
     </li>
   </ul>
 
-  <!-- Section: Slider -->
+
   <section class="slider">
     <ul class="slides">
       <li>
         <img src="img/resort1.jpg">
-        <!-- random image -->
+
         <div class="caption center-align">
           <h2>Take Your Dream Vacation</h2>
           <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, provident eos dicta unde debitis</h5>
@@ -87,7 +87,7 @@
       </li>
       <li>
         <img src="img/resort2.jpg">
-        <!-- random image -->
+
         <div class="caption left-align">
           <h2>We Work With All Budgets</h2>
           <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus delectus inventore neque impedit</h5>
@@ -95,7 +95,7 @@
       </li>
       <li>
         <img src="img/resort3.jpg">
-        <!-- random image -->
+
         <div class="caption right-align">
           <h2>Group & Individual Getaways</h2>
           <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsum molestias excepturi doloremque</h5>
@@ -104,21 +104,23 @@
     </ul>
   </section>
 
-  <!-- Section: Search -->
+
+  <form class="example" action="https://google.com/search?">
   <section id="search" class="section section-search black darken-1 white-text center scrollspy">
     <div class="container">
       <div class="row">
         <div class="col s12">
           <h3>Search Destinations</h3>
           <div class="input-field">
-            <input type="text" class="white grey-text autocomplete" id="autocomplete-input" placeholder="Aruba, Cancun, etc...">
+            <input type="text" class="white grey-text autocomplete" id="autocomplete-input" placeholder="Aruba, Cancun, etc..." name="q" autocomplete="off">
+            <button class="button-effect" type="submit"><i class="fa fa-search"></i></button>
           </div>
         </div>
       </div>
     </div>
   </section>
+</form>
 
-  <!-- Section: Icon Boxes -->
   <section class="section section-icons grey lighten-4 center">
     <div class="container">
       <div class="row">
@@ -147,7 +149,7 @@
     </div>
   </section>
 
-  <!-- Section: Popular Places -->
+
   <section id="popular" class="section section-popular scrollspy">
     <div class="container">
       <div class="row">
@@ -190,7 +192,7 @@
     </div>
   </section>
 
-  <!-- Section: Follow -->
+
   <section class="section section-follow black darken-2 white-text center">
     <div class="container">
       <div class="row">
@@ -198,26 +200,26 @@
           <h4>Follow Name</h4>
           <p>Follow us on social media for special offers</p>
           <a href="#" class="white-text">
-            <a href="https://www.facebook.com"><i class="fab fa-facebook fa-4x"></i></a>
+            <a href="https://www.facebook.com" class="social-effect"><i class="fab fa-facebook fa-4x"></i></a>
           </a>
           <a href="#" class="white-text">
-            <a href="https://www.twitter.com"><i class="fab fa-twitter fa-4x"></i></a>
+            <a href="https://www.twitter.com" class="social-effect"><i class="fab fa-twitter fa-4x"></i></a>
           </a>
           <a href="#" class="white-text">
-            <a href="https://www.reddit.com"><i class="fab fa-reddit fa-4x"></i></a>
+            <a href="https://www.reddit.com" class="social-effect"><i class="fab fa-reddit fa-4x"></i></a>
           </a>
           <a href="#" class="white-text">
-            <a href="https://www.instagram.com"><i class="fab fa-instagram fa-4x"></i></a>
+            <a href="https://www.instagram.com" class="social-effect"><i class="fab fa-instagram fa-4x"></i></a>
           </a>
           <a href="#" class="white-text">
-            <a href="https://www.discord.gg"><i class="fab fa-discord fa-4x"></i></a>
+            <a href="https://www.discord.gg" class="social-effect"><i class="fab fa-discord fa-4x"></i></a>
           </a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Section: Gallery -->
+
   <section id="gallery" class="section section-gallery scrollspy">
     <div class="container">
       <h4 class="center">
@@ -270,7 +272,7 @@
     </div>
   </section>
 
-  <!-- Section: Contact -->
+
   <section id="contact" class="section section-contact scrollspy">
     <div class="container">
       <div class="row">
@@ -294,23 +296,23 @@
           <div class="card-panel grey lighten-3">
             <h5>Please fill out this form</h5>
             <div class="input-field">
-              <input type="text" placeholder="Name" id="full_name" name="full_name">
+              <input type="text" placeholder="Name" id="full_name" name="full_name" autocomplete="off">
             </div>
             <div class="input-field">
-              <input type="text" placeholder="Email" id="email" name="email">
+              <input type="email" placeholder="Email" id="email" name="email" autocomplete="off">
             </div>
             <div class="input-field">
-              <input type="text" placeholder="Phone" id="phone_number" name="phone_number">
+              <input type="number" placeholder="Phone" id="phone_number" name="phone_number" autocomplete="off">
             </div>
-
             <button type="submit" value="Submit" class="btn black lighten-3" id="submit">Submit</button>
+            <div class="thanks"></div>
           </div>
         </div>
       </form>
       </div>
     </div>
   </section>
-  <!-- Footer -->
+
   <footer class="section black darken-2 white-text center">
       <strong> &copy; 2020 </strong>
       <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
@@ -326,20 +328,20 @@
       <p>
         <small class="text-muted">
 
-          Coded with love by a couple pationate 16 year olds.
+          Coded with love by a couple of pationate 16 year olds.
         </small>
       </p>
   </footer>
 
-  <!--JavaScript at end of body for optimized loading-->
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 
   <script>
-    // Sidenav
+
     const sideNav = document.querySelector('.sidenav');
     M.Sidenav.init(sideNav, {});
 
-    // Slider
+
     const slider = document.querySelector('.slider');
     M.Slider.init(slider, {
       indicators: false,
@@ -348,7 +350,7 @@
       interval: 6000
     });
 
-    // Autocomplete
+
     const ac = document.querySelector('.autocomplete');
     M.Autocomplete.init(ac, {
       data: {
@@ -362,11 +364,11 @@
       }
     });
 
-    // Material Boxed
+
     const mb = document.querySelectorAll('.materialboxed');
     M.Materialbox.init(mb, {});
 
-    // ScrollSpy
+
     const ss = document.querySelectorAll('.scrollspy');
     M.ScrollSpy.init(ss, {});
 
@@ -397,7 +399,7 @@
               dataType: "json",
               data: form.serializeObject()
             });
-              $(".thanks").html("Thank you for getting in touch!").css("font-size","4rem");
+              $(".thanks").html("Thank you!").css("font-size","4rem");
               $(".form-control").remove();
               $("#submit").remove();
             });
