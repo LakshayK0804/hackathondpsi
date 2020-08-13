@@ -10,3 +10,6 @@ This project has been created by the DPS International Team
 *Devaj Gupta*
 
 ### Idea
+<div class="input-field">
+  <textarea class="materialize-textarea" placeholder="Enter Message" name="form_field_4"></textarea>
+</div>
