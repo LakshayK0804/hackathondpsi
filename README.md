@@ -17,8 +17,8 @@ YoungTravels is an agency that provides a platform for the young adults and teen
 ### About the Website
     **Some features**
     The form at the bottom actually works! Yes, it sends the data collected to a google spreadsheet. 
-    The CSS, we have some very cool CSS embedded in the website from the buzzing search button to the cards that rotate and zoom. 
-    The search bar, the search bar right now works but will redirect the seach query to google. The reason to make this was that later on we will collaborate with travel             websites such as MakeMyTrip, and the search bar will actually take the users to their website with the particuloar search query.
+    As for the CSS, we have some very cool CSS code embedded in the website, from the buzzing search button to the cards that rotate and zoom. 
+    The search bar works right now but only as a seach query to google. The reason to make this was that later on we will collaborate with travel websites such as MakeMyTrip,       and the search bar will actually take the users to their website with the particuloar search query.
     
 ### Business Plan
 
