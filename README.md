@@ -4,12 +4,13 @@ This project has been created by the DPS International Team
 ## Team members
 **Coder and Designer**
   *Lakshay Kalra*
-**Editor and Debugger**
+**Business Head**
 *Arohan Mittal*
-**Marketing Head**
+**Editor and Proofreader**
 *Devaj Gupta*
 
-### Idea
-<div class="input-field">
-  <textarea class="materialize-textarea" placeholder="Enter Message" name="form_field_4"></textarea>
-</div>
+### Desciption
+YoungTravels is an agency that provides for the young adults and teens, who want to go on trips with friends but have a limited price. It's the student edition of travel packages.
+By the teens, Of the teens, For the teens. 
+
+### About the Website
